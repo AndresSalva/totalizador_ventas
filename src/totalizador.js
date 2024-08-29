@@ -1,4 +1,8 @@
 function mostrarCantidad(cantidad){
     return cantidad;
 }
-export default mostrarCantidad;
+
+function mostrarPrecio(precio){
+    return precio;
+}
+export {mostrarCantidad,mostrarPrecio};
