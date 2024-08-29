@@ -5,4 +5,7 @@ function mostrarCantidad(cantidad){
 function mostrarPrecio(precio){
     return precio;
 }
-export {mostrarCantidad,mostrarPrecio};
+function mostrarEstado(estado){
+    return estado;
+}
+export {mostrarCantidad,mostrarPrecio,mostrarEstado};
